@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { AddCategory,GifGrid} from "./Components";
-
+import PropTypes from "prop-types";
 export const GifExpertApp = () => {
     const [categories,setcategories]=useState(['Stranger Things']);
     const onAddCategory=(newCategory)=>{
@@ -31,4 +31,6 @@ export const GifExpertApp = () => {
     </div>
   )
 }
-
+GifExpertApp.propTypes={
+  newCategory:PropTypes.string.isRequired,
+}

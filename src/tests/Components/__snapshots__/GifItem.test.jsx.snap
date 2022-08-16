@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba GifItem El componente debe coincidir con el snapshot 1`] = `
+<div>
+  <div
+    class="card"
+  >
+    <img
+      src="https://hoypyspace.sfo2.cdn.digitaloceanspaces.com/imagenes/stranger-things-temporada-4-netflix.jpg"
+    />
+    <p>
+      StrangerThings
+    </p>
+  </div>
+</div>
+`;
